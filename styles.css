@@ -105,3 +105,31 @@ body{
     line-height: 30px;
 }
 
+.section_numeros{
+    width: 100%;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numeros_info{
+    height: 168px;
+    width: 280px;
+    
+}
+
+.numeros_info h2{
+    font-size: 60px;
+    color: #8E2424;
+    padding-bottom: 20px;
+}
+
+.numeros_info span{
+    font-weight: 500;
+}
+
+.numeros_info p{
+    margin-top: 10px;
+    color: var(--light-grey);
+    font-weight: var(--light);
+}
