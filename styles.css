@@ -66,14 +66,42 @@ body{
     cursor: pointer;
     line-height: 44px;
     text-align: center;
-}
-
-.btn-enter{
-
-}
+}   
 
 .btn-sign{
     color: var(--base-color);
     background-color: var(--red);
+}
+
+.section_titulo{
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.section_titulo h1{
+    color: #8E2424;
+    font-weight: var(--semi-bold);
+    font-size: var(--regular-text);
+    line-height: 24px;
+    text-align: center;
+    
+}
+
+.section_titulo h3{
+    color: var(--grey-900);
+    font-weight: var(--semi-bold);
+    font-size: var(--large-text);
+    margin: 64px auto 0;
+    text-align: center;
+}
+
+.section_titulo p{
+    font-weight: var(--light);
+    width: 50%;
+    font-size: 20px;
+    color: var(--light-grey);
+    text-align: center;
+    margin: 56px auto 0;
+    line-height: 30px;
 }
 
