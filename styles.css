@@ -133,3 +133,59 @@ body{
     color: var(--light-grey);
     font-weight: var(--light);
 }
+
+.vaga{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 768px;
+    padding: 24px 0 32px 24px;
+    border: 1px solid #DCDCDC;
+    border-radius: 16px;
+}
+
+.vagas-area{
+    margin: 0 auto;
+    width: 768px;
+    padding: 60px 0 5px 0;
+    color: var(--Gray-900, #101828);
+    font-size: 20px;
+}
+
+.titulo-vaga{
+    width: 100%;
+    margin-bottom: 30px;
+    color: var(--grey-900);
+    font-size: 18px;
+}
+
+.informacao_vaga{
+    font-size: 16px;
+    margin-top: 16px;
+    color: var(--Gray-500, #667085);
+    font-weight: lighter;
+}
+
+.informacao_vaga_type{
+    padding-right: 30px;
+}
+
+.section_titulo_tag{
+    text-align: center;
+    background: rgba(142, 36, 36, 0.05);
+}
+
+.imagem_time{
+    margin: 64px 10%;
+    width: 80%;
+}
+
+.time_h1{
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    margin: 10vh auto 0;
+    padding: 4px 12px;
+    width: 10vw;
+}
